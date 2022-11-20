@@ -16,4 +16,14 @@ public class MyStack {
     public INode peak() {
         return myLinkedList.head;
     }
+
+    public INode pop() {
+        return myLinkedList.pop();
+    }
+
+    /* public void popCompletely() {
+            do{
+                myLinkedList.pop();
+            }while (!myLinkedList.head.getKey().equals(null));
+        }*/
 }
