@@ -12,4 +12,11 @@ public class MyQueue {
         myLinkedList.printMyNodes();
     }
 
+    public INode peak() {
+        return myLinkedList.head;
+    }
+
+    public INode dequeue() {
+        return myLinkedList.popLast();
+    }
 }
