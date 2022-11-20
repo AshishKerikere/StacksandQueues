@@ -8,5 +8,11 @@ public class MyQueueTest {
         myQueue.enque(mySecondNode);
         myQueue.enque(myThirdNode);
         myQueue.printMyQueue();
+        INode element = myQueue.dequeue();
+        System.out.println(element.getKey());
+        element = myQueue.dequeue();
+        System.out.println(element.getKey());
+        element = myQueue.dequeue();
+        System.out.println(element.getKey());
     }
 }
